@@ -175,7 +175,7 @@ def main():
 
           val_labels = val_labels.data.cpu().numpy()
           val_y_true.extend(val_labels) # Save Truth
-	  del val_images
+	        del val_images
           del val_labels
           del val_outputs
           del val_output
